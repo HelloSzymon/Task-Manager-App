@@ -16,6 +16,10 @@
 		1546BFB62A6E76BE00692AE0 /* Task_Manager_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546BFB52A6E76BE00692AE0 /* Task_Manager_AppTests.swift */; };
 		1546BFC02A6E76BE00692AE0 /* Task_Manager_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546BFBF2A6E76BE00692AE0 /* Task_Manager_AppUITests.swift */; };
 		1546BFC22A6E76BE00692AE0 /* Task_Manager_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546BFC12A6E76BE00692AE0 /* Task_Manager_AppUITestsLaunchTests.swift */; };
+		1546BFCF2A6E780B00692AE0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546BFCE2A6E780B00692AE0 /* Home.swift */; };
+		1546BFD32A6E7DC100692AE0 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546BFD22A6E7DC100692AE0 /* TaskViewModel.swift */; };
+		1546BFD52A6E8D4300692AE0 /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546BFD42A6E8D4300692AE0 /* AddNewTask.swift */; };
+		1546BFD72A6EA76800692AE0 /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546BFD62A6EA76800692AE0 /* DynamicFilteredView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1546BFBB2A6E76BE00692AE0 /* Task Manager AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task Manager AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1546BFBF2A6E76BE00692AE0 /* Task_Manager_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_Manager_AppUITests.swift; sourceTree = "<group>"; };
 		1546BFC12A6E76BE00692AE0 /* Task_Manager_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_Manager_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1546BFCE2A6E780B00692AE0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1546BFD22A6E7DC100692AE0 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		1546BFD42A6E8D4300692AE0 /* AddNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTask.swift; sourceTree = "<group>"; };
+		1546BFD62A6EA76800692AE0 /* DynamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 			children = (
 				1546BF9E2A6E76BD00692AE0 /* Task_Manager_AppApp.swift */,
 				1546BFA02A6E76BD00692AE0 /* Persistence.swift */,
+				1546BFD12A6E781600692AE0 /* ViewModel */,
+				1546BFD02A6E781000692AE0 /* View */,
 				1546BFA52A6E76BD00692AE0 /* ContentView.swift */,
 				1546BFA72A6E76BE00692AE0 /* Assets.xcassets */,
 				1546BFA92A6E76BE00692AE0 /* Task_Manager_App.entitlements */,
@@ -133,6 +143,24 @@
 				1546BFC12A6E76BE00692AE0 /* Task_Manager_AppUITestsLaunchTests.swift */,
 			);
 			path = "Task Manager AppUITests";
+			sourceTree = "<group>";
+		};
+		1546BFD02A6E781000692AE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1546BFCE2A6E780B00692AE0 /* Home.swift */,
+				1546BFD42A6E8D4300692AE0 /* AddNewTask.swift */,
+				1546BFD62A6EA76800692AE0 /* DynamicFilteredView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1546BFD12A6E781600692AE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1546BFD22A6E7DC100692AE0 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1546BF9F2A6E76BD00692AE0 /* Task_Manager_AppApp.swift in Sources */,
+				1546BFD32A6E7DC100692AE0 /* TaskViewModel.swift in Sources */,
 				1546BFA42A6E76BD00692AE0 /* Task_Manager_App.xcdatamodeld in Sources */,
+				1546BFD72A6EA76800692AE0 /* DynamicFilteredView.swift in Sources */,
+				1546BFCF2A6E780B00692AE0 /* Home.swift in Sources */,
+				1546BFD52A6E8D4300692AE0 /* AddNewTask.swift in Sources */,
 				1546BFA62A6E76BD00692AE0 /* ContentView.swift in Sources */,
 				1546BFA12A6E76BD00692AE0 /* Persistence.swift in Sources */,
 			);
